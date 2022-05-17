@@ -57,8 +57,4 @@ implement password management in a secure and documented manner.
 **Note:** Now everytime you need to use your encrypted drive you have to unlock
 it, mount it, then once done lock it.
 
-
 [1]: https://en.wikipedia.org/wiki/Linux_Unified_Key_Setup
-
-
-
