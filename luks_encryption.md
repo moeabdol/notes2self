@@ -19,7 +19,7 @@ implement password management in a secure and documented manner.
 4. Once formatted you can run the following to create an encrypted drive.
    ```
    $ sudo cryptsetup --cipher aes-xts-plain64 --hash sha512 --use-random
-   --verify-passphrase /dev/sdb1
+   --verify-passphrase luksFormat /dev/sdb1
    ```
 5. Note that the above is customized cipher which I picked. You can run the
    command using the default cipher mentioned in the `--help`.
