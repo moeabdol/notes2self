@@ -92,7 +92,7 @@ $ gpg -k
 Export your public key to a file that you can share with others or use with
 Github, Gitlab, or other sites.
 ```
-$ gpg --export --armour  --output .gnupg/public_key.gpg YOUR-MASTER-KEY-ID
+$ gpg --export --armor  --output .gnupg/public_key.gpg YOUR-MASTER-KEY-ID
 ```
 
 ## Publish Your Public Key to a Keyserver
